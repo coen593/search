@@ -1,0 +1,18 @@
+/* Google logo colors */
+#container .blue{
+    color: blue;
+}
+#container .red {
+    color: red;
+}
+#container .yellow {
+    color: yellow;
+}
+#container .green {
+    color: green;
+}
+
+/* index logo size */
+h1 #mainLogo {
+    font-size: 48px
+}
