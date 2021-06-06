@@ -1,18 +1,46 @@
 /* Google logo colors */
-#container .blue{
-    color: blue;
+.blue{
+    color: #4285F4;
 }
-#container .red {
-    color: red;
+.red {
+    color: #DB4437;
 }
-#container .yellow {
-    color: yellow;
+.yellow {
+    color: #F4B400;
 }
-#container .green {
-    color: green;
+.green {
+    color: #0F9D58;
 }
 
 /* index logo size */
-h1 #mainLogo {
-    font-size: 48px
+h1 {
+    font-size: 72px;
+    font: tahoma;
 }
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form[action="https://google.com/search"] {
+    width: 50%;
+}
+
+#query {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px rgb(59, 58, 58) solid;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 5;
+}
+
+.buttons {
+    text-align: center;
+}
+
