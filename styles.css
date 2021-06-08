@@ -1,3 +1,7 @@
+main {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 /* Google logo colors */
 .blue{
     color: #4285F4;
@@ -36,34 +40,56 @@ form[action="https://google.com/search"] {
     width: 100%;
 }
 
-.row input {
+/* grid settings */
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    vertical-align: text-bottom;
+}
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 180px 50% auto;
+    }
+    .weird {
+        display: none;
+    }
+}
+@media (max-width: 899px) {
+    .grid {
+        grid-template-columns: 180px auto 0;
+    }
+    .form-text, #third {
+        display: none;
+    }
+}
+.grid-item input {
     width: 100%;
     border: 1px rgb(114, 114, 114) solid;
     padding-left: 10px;
     padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-
-.row {
-    margin-top: 20px;
+.grid-item .top {
+    font-size: 12px;
 }
-
-.row #top {
-    font-size: 18px;
+.grid-item label {
+    font-size: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
-.row label {
-    font-size: 14px;
-}
-
 .courier {
     font-family: Courier New;
 }
-
-.rightAlignBlue {
+#advancedButton {
     float: right;
     background-color: #4285F4;
     color: white;
     font-weight: bold;
+    margin-right: 0%;
+    margin-left: auto;
+    width: 180px;
 }
 
 #query {

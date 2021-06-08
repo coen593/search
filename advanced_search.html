@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <div class="logoAdvanced" class="navbar-nav mr-auto mt-2"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></div>
                 <ul class="navbar-nav ml-auto mt-2">
-                    <li class="nav-item"><a class="nav-link" href="./">Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Search</a></li>
                 </ul>
             </div>
         </nav>
@@ -24,35 +24,26 @@
             <hr id="topSeparator">
             <div class="mainAdvanced">
                 <form id="advancedForm" action="https://google.com/search">
-                    <div class="row" id="top">
-                        <div class="col-2">Find pages with...</div>
-                        <div class="col-6"></div>
-                        <div class="col-4">To do this in the search box.</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2"><label>all these words:</label></div>
-                        <div class="col-6"><input type="text" name="as_q"></div>
-                        <div class="col-4"><small class="form-text text-muted">Type the important words: <span class="courier">tri-colour rat terrier</span></small></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2"><label>this exact word or phrase:</label></div>
-                        <div class="col-6"><input type="text" name="as_epq"></div>
-                        <div class="col-4"><small class="form-text text-muted">Put exact words in quotes: <span class="courier">"rat terrier"</span></small></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2"><label>any of these words:</label></div>
-                        <div class="col-6"><input type="text" name="as_oq"></div>
-                        <div class="col-4"><small class="form-text text-muted">Type OR between all the words you want: <span class="courier">miniature OR standard</span></small></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2"><label>none of these words:</label></div>
-                        <div class="col-6"><input type="text" name="as_eq"></div>
-                        <div class="col-4"><small class="form-text text-muted">Put a minus sign just before words that you don't want: <span class="courier">-rodent, -"Jack Russell"</span></small></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6"></div>
-                        <div class="col-2"><input class="rightAlignBlue" type="submit" value="Advanced Search"></div>
-                        <div class="col-4"></div>
+                    <div class="grid">
+                        <div class="grid-item" class="top">Find pages with...</div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item" class="top" id="third">To do this in the search box.</div>
+                        <div class="weird"></div>
+                        <div class="grid-item"><label>all these words:</label></div>
+                        <div class="grid-item"><input type="text" name="as_q"></div>
+                        <div class="grid-item"><small class="form-text text-muted">Type the important words: <span class="courier">tri-colour rat terrier</span></small></div>
+                        <div class="grid-item"><label>this exact word or phrase:</label></div>
+                        <div class="grid-item"><input type="text" name="as_epq"></div>
+                        <div class="grid-item"><small class="form-text text-muted">Put exact words in quotes: <span class="courier">"rat terrier"</span></small></div>
+                        <div class="grid-item"><label>any of these words:</label></div>
+                        <div class="grid-item"><input type="text" name="as_oq"></div>
+                        <div class="grid-item"><small class="form-text text-muted">Type OR between all the words you want: <span class="courier">miniature OR standard</span></small></div>
+                        <div class="grid-item"><label>none of these words:</label></div>
+                        <div class="grid-item"><input type="text" name="as_eq"></div>
+                        <div class="grid-item"><small class="form-text text-muted">Put a minus sign just before words that you don't want: <span class="courier">-rodent, -"Jack Russell"</span></small></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"><input id="advancedButton" type="submit" value="Advanced Search"></div>
+                        <div class="grid-item"></div>
                     </div>
                 </form>
             </div>
