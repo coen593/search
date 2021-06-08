@@ -7,15 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar-light">
-            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="navbar-nav ml-auto mt-2">
-                        <li class="nav-item"><a class="nav-link" href="./index.html">Search</a></li>
-                    </ul>
-            </div>
+        <nav class="navbar navbar-expand navbar-light">
+            <ul class="navbar-nav ml-auto mt-2">
+                <li class="nav-item"><a class="nav-link" href="./index.html">Search</a></li>
+            </ul>
         </nav>
         <div class=container>
             <h1><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></h1>
@@ -24,7 +19,7 @@
             <form action="https://google.com/search">
                 <div><input id="query" type="text" name="q"></div>
                 <input type="hidden" name="tbm" value="isch">
-                <div class="buttons"><input type="submit" value="Google Image Search"></div>
+                <div class="buttons" id="imageButton"><input type="submit" value="Image Search"></div>
             </form>
         </div>
     </body>
