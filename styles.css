@@ -16,17 +16,54 @@
 h1 {
     font-size: 72px;
     font: tahoma;
+    font-weight: 500;
 }
 
+/* center Search and Images pages */
 .container {
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* search bar Search and Images pages */
 form[action="https://google.com/search"] {
     width: 50%;
+}
+
+/* Advances form setting */
+#advancedForm {
+    width: 100%;
+}
+
+.row input {
+    width: 100%;
+    border: 1px rgb(114, 114, 114) solid;
+    padding-left: 10px;
+    padding: 5px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.row #top {
+    font-size: 18px;
+}
+
+.row label {
+    font-size: 14px;
+}
+
+.courier {
+    font-family: Courier New;
+}
+
+.rightAlignBlue {
+    float: right;
+    background-color: #4285F4;
+    color: white;
+    font-weight: bold;
 }
 
 #query {
@@ -44,3 +81,24 @@ form[action="https://google.com/search"] {
     text-align: center;
 }
 
+.logoAdvanced {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mainAdvanced {
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#advancedHeader {
+    color: #DB4437;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#topSeparator {
+    margin-bottom: 40px;
+}
