@@ -23,17 +23,27 @@ form[action="https://google.com/search"] {
 
 /* Search/Images search bar settings */
 #query {
-    border-radius: 15px;
+    border-radius: 25px;
     border: 1px #DDDDDD solid;
     padding: 5px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 45px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    outline: medium none;
+    height: 50px;
+    font-size: 18px;
+    background:url("Glass.png") no-repeat left center;
 }
-
+#query::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background:url("Cross.png");
+}
 #query:hover {
     border: 1px #CCCCCC solid;
     box-shadow: 0px 1px 1px #D3D3D3;
