@@ -2,20 +2,6 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-/* Google logo colors */
-.blue{
-    color: #4285F4;
-}
-.red {
-    color: #DB4437;
-}
-.yellow {
-    color: #F4B400;
-}
-.green {
-    color: #0F9D58;
-}
-
 /* index logo size */
 h1 {
     font-size: 72px;
@@ -47,6 +33,7 @@ form[action="https://google.com/search"] {
     margin-right: auto;
     display: block;
 }
+
 #query:hover {
     border: 1px #CCCCCC solid;
     box-shadow: 0px 1px 1px #D3D3D3;
